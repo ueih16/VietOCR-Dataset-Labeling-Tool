@@ -245,6 +245,7 @@ class RunApp(QtWidgets.QWidget):
         with open(test_anno_file_name, "w", encoding="utf-8") as file:
             file.write(test_anno_data)
 
+        QtWidgets.QMessageBox.information(self, "Information !!!", "Save dataset successfully !")
         print("Save Dataset Successfully !!!")
 
     @pyqtSlot(np.ndarray, QtWidgets.QLabel)
