@@ -211,7 +211,7 @@ class RunApp(QtWidgets.QWidget):
         img_name = datetime.now().strftime("%Y%m%d%H%M%S.png")
         img_file_name = os.path.join(self.ui.txb_dataset_dir.text(), "images", img_name)
 
-        txt = f"images/{img_name} {self.line_data_ui.txb_line_data.text()}"
+        txt = f"images/{img_name}\t{self.line_data_ui.txb_line_data.text()}"
 
         if self.ui.rad_train.isChecked():
             self.ui.tab_annotation.setCurrentIndex(0)
