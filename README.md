@@ -7,7 +7,7 @@
 ## Cài đặt
 
 1. Clone Project này.
-2. Chạy lệnh **pip install requirements.txt** để cài đặt các package cần thiết.
+2. Chạy lệnh **pip install -r requirements.txt** để cài đặt các package cần thiết.
 3. Chạy lệnh **python main.py** để chạy chương trình
 
 ## Hướng dẫn sử dụng
