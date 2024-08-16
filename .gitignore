@@ -1,0 +1,7 @@
+/venv
+/main.spec
+/dist
+/dist/*.exe
+/.idea
+/build
+/build/main
